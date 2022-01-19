@@ -1,0 +1,115 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    width: 90%;
+}
+
+#covid-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+g {
+    transform: scale(0.8) !important;
+    -webkit-transform: scale(0.8) !important;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+h1 {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+h3 {
+    padding-bottom: 10px;
+    color: #111;
+    font-size: 18px;
+}
+
+.add-button {
+    background-color: rgb(201, 198, 25);
+    border: 1px solid #111;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button:hover {
+    background-color: rgb(199, 183, 113);
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #ccc !important;
+    border: 1px solid #111 !important;
+    border-radius: 0px !important;
+    padding: 2px !important;
+    font-weight: 400 !important;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.input-button {
+    margin-bottom: 15px;
+}
+
+span {
+    font-weight: 400 !important;
+}
+
+.added-country {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    padding: 4px;
+    border: 1.8px solid #333;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 4px;
+    border: 1.8px solid #333;
+}
+.country-button {
+    background-color: rgb(201, 70, 30);
+    color: white;
+    border-radius: 100px;
+    padding: 2px 10px;
+}
+
+.country-button:hover {
+    background-color: rgb(184, 82, 82);
+}
